@@ -30,9 +30,10 @@ which can leave assets dirty.
 Powerful and consistent with post-processing, but introduces extra volume
 assets/layers and higher setup/management cost for camera-specific effects.
 
-## Recommended Approach
+## Camera-Attached Controller Approach
 
-Use a **camera-attached controller component** (`MonoBehaviour`) to hold:
+In my projects, I usually use a **camera-attached controller component**
+(`MonoBehaviour`) to hold:
 
 - Shader reference
 - Runtime material instance (with proper lifecycle management)
