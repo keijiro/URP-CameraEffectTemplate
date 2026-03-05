@@ -11,7 +11,7 @@ half4 Frag(Varyings input) : SV_Target
 {
     half2 uv = input.texcoord;
     half4 src = SAMPLE_TEXTURE2D_X(_BlitTexture, sampler_LinearClamp, uv);
-    half4 inv = half4(1 - src.rgb, src.a);
+    half4 inv = half4(SRGBToLinear(1 - LinearToSRGB(src.rgb)), src.a);
     return lerp(src, inv, _Opacity);
 }
 
