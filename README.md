@@ -1,4 +1,4 @@
-# URP Camera Effect Workflow
+# URP Camera Effect Template
 
 Minimal Unity project for prototyping URP full-screen effects with a
 camera-attached controller component.
