@@ -1,5 +1,7 @@
 # URP Camera Effect Template
 
+![screenshot](https://github.com/user-attachments/assets/91b04d45-fd8e-4e9b-b5f7-241e5dea72bc)
+
 Minimal Unity project for prototyping URP full-screen effects with a
 camera-attached controller component.
 
@@ -11,7 +13,7 @@ This project demonstrates a practical pattern based on a camera-attached
 controller component, keeping runtime control simple and avoiding asset-side
 side effects.
 
-## Why This Pattern
+## Common Approaches
 
 There are several common parameter-hosting options, each with tradeoffs.
 
